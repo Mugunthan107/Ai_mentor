@@ -16,7 +16,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Login = lazy(() => import('./pages/Login'));
 const NotFound = lazy(() => import('./components/NotFound'));
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen font-sans bg-slate-50">
       <Header />
